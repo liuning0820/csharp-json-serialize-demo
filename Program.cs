@@ -29,8 +29,10 @@ namespace csharp_json_serialize_demo
             Console.WriteLine(outputString);
             File.WriteAllText("output.json", outputString);
 
-
-
+            //output to json string using Newtonsoft.Json.JsonConvert
+            string outputString2 = JsonConvert.SerializeObject(person3);
+            Console.WriteLine(outputString2);
+            File.WriteAllText("output2.json", outputString2);
 
         }
     }
