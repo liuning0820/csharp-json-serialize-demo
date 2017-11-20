@@ -23,6 +23,15 @@ namespace csharp_json_serialize_demo
             Person person2 = JsonConvert.DeserializeObject<Person>(jsonString);
             Console.WriteLine(person2.ToString());
 
+            //output to json string using JavaScriptSerializer
+            Person person3 = new Person { Name = "Ben", Age = 5 };
+            string outputString = serializer.Serialize(person3);
+            Console.WriteLine(outputString);
+            File.WriteAllText("output.json", outputString);
+
+
+
+
         }
     }
 
