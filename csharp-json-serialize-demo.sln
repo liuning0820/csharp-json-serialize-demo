@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-json-serialize-demo", "csharp-json-serialize-demo.csproj", "{B1CE365B-478C-43D6-BD57-47EBA15D9BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netcore3.0-buildin-json-serialize-demo", "dotnet-core\netcore3.0-buildin-json-serialize-demo.csproj", "{4BDF7AC3-A664-40D6-986D-D0F46D544322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-json-serialize-net45-demo", "dotnet-framework45\csharp-json-serialize-net45-demo.csproj", "{B1CE365B-478C-43D6-BD57-47EBA15D9BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BDF7AC3-A664-40D6-986D-D0F46D544322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDF7AC3-A664-40D6-986D-D0F46D544322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDF7AC3-A664-40D6-986D-D0F46D544322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDF7AC3-A664-40D6-986D-D0F46D544322}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B1CE365B-478C-43D6-BD57-47EBA15D9BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B1CE365B-478C-43D6-BD57-47EBA15D9BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1CE365B-478C-43D6-BD57-47EBA15D9BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
